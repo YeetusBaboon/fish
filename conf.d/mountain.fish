@@ -2,7 +2,7 @@
 
 # --> special
 set -l foreground f0f0f0 
-set -l selection 4c4c4c 
+set -l selection 262626 
 
 # --> palette
 set -l teal 9ec3c4
@@ -18,7 +18,7 @@ set -l gray e7e7e7
 
 # Syntax Highlighting
 set -g fish_color_normal $foreground
-set -g fish_color_command $blue
+set -g fish_color_command $gray
 set -g fish_color_param $flamingo
 set -g fish_color_keyword $red
 set -g fish_color_quote $green
@@ -36,7 +36,7 @@ set -g fish_color_cancel $red
 # Prompt
 set -g fish_color_cwd $yellow
 set -g fish_color_user $teal
-set -g fish_color_host $blue
+set -g fish_color_host $gray
 
 # Completion Pager
 set -g fish_pager_color_progress $gray
